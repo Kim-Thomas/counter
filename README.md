@@ -10,7 +10,10 @@ Then in your html file, create a span containing the number to animate :
 `<span class='counter'>12345</span>`
 
 And call the transform_number function with javascript :
-    <script>
-    transform_number($('.counter'), 200, 'fixed_width');
-    </script>
+
+```
+<script>
+transform_number($('.counter'), 200, 'fixed_width');
+</script>
+```
     
