@@ -1,5 +1,6 @@
 # counter
-A jQuery plugin to animate numbers.
+A jQuery plugin to animate numbers :) have fun !
+You can see a [DEMO HERE](http://thomaskim.fr/counter)
 
 ### How To Use Counter
 
