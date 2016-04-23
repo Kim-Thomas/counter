@@ -15,8 +15,43 @@ And call the transform_number function with javascript :
 
 ```
 <script>
-transform_number($('.counter'), 200, 'fixed_width');
+    transform_number($('.counter'), 200, 'fixed_width');
 </script>
+```
+
+### Full example
+
+Here is an example of what your file should look like :
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Example</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class="some-div"> <!-- your number can be out of a div of course -->
+            <span class="counter">
+                189383262705
+            </span>
+        </div>
+        
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/counter.js"></script>
+        <script>
+            $('.counter').each(function() {
+               transform_number($(this), 175, 'fixed_width'); 
+            });
+        </script>
+        
+    </body>
+</html>
 ```
     
 ### Options
